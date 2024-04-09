@@ -5,11 +5,8 @@ Project aims to create survey form within html and css.
 
 ## Problem Statement
 
-- Your company has recently started on a project that aims to conduct a survey to measure the demands and interests of its customers. So you and your colleagues have started to work on the project.
+- Company has recently started on a project that aims to conduct a survey to measure the demands and interests of its customers. So you and your colleagues have started to work on the project.
 
-## Project Design
-
-- <a href="https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4">https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4<a>
 
 ## Project Skeleton 
 
@@ -23,8 +20,13 @@ Project aims to create survey form within html and css.
         |----result.html 
 ```
 
-## Expected Outcome
+## Gif of thr Project
 
+will be added
+
+## The Link of the Project
+
+...........
 ![Project Snapshot](Project_001_.png)
 
 ## Objective
