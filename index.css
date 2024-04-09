@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/background_image.jpg);
+    color: white;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.container{
+    
+    color: white;
+    max-width: 1240px;
+    margin: auto;
+    /* yatay ortalama için margin kullanmak avantajlı olur. ileride flex ile yapacağız */
+    /* height: 1036px; */  
+    /* height vermemeye çalışıyoruz, doldurdukça aşağı inecek */
+    margin-top: 30px;
+    /* margin-left: 100px; */
+    background-color: rgba(0, 0, 0, 0.3);
+    /* margin auto vermek için bir block elemenin olacak bir de kesinlikle width verilmek zorunda */
+}
+
+.header{
+    text-align: center;
+}
+
+#title{
+    font-family: "Bowlby One SC", sans-serif;
+}
+
+#span1{
+    color: red;
+}
+
+#description{
+    font-family: "Sorts Mill Goudy", serif;
+}
+
+.form-container{
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    margin: auto;
+    padding: 30px 40px;    
+}
+
+.box{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+
+}
+
+#name,#age,#email,#dropdown,#comment{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+}
+
+textarea{
+    resize: none;
+    height: 91.46px;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-submit{
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 50px;
+}
+
+.form-submit:hover{
+    background-color: white;
+    color: red;
+}
